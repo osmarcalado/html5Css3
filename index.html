@@ -2,12 +2,16 @@
 <html lang="Pt">
 <head>
     <meta charset="utf-8">
-    <title>MEU SITE HTML 5</title>
+    <title>MEU SITE HTML 5 CSS E JS</title>
     <link rel="stylesheet" type="text/css" href="css/style.css"
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
-<body>
+<body onload="load()">
     <nav>
-        <P>Minha Página</P>
+        <P>Minha Página JS CSS</P>
+
+        
     <ul>
         <LI><a href="#servicos">SERVIÇOS</a></LI>
         <LI><a href="#clientes">CLIENTES</a></LI>
@@ -16,7 +20,22 @@
         <LI>CONTATO</LI>
     </ul>
     </nav>
-    <p>MINHA PRIMEIRA PAGINA</p>
+    <p>PAGINA</p>
+
+    <button type"button" onclick="clicou()">Clique aqui</button>
+    <p id="agradecimento" onclick="redirecionar()">Obrigado por Passsar Mouse</p>
+    <p id="agradecimento" ></p>
+    <p id="mousemove" onmousemove="trocar(this)" onmouseout="voltar(this)">Passe o Mouse Aqui</p>
+    <p id="mousemove2" onmousemove="trocar(this)" onmouseout="voltar(this)">Passe o Mouse Aqui</p>
+
+<p>Selecione Abaixo as Opções</p>
+<select onchange="funcaochange(this)">
+<option value="1">Valor 1</option>
+<option value="2">Valor 2</option>
+<option value="3">Valor 3</option>
+
+</select>
+
 <header>
     <h1>Minha Pagina </h1>
     <p>
